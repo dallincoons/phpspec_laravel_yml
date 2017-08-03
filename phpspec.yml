@@ -1,0 +1,9 @@
+
+extensions:
+  PhpSpec\Laravel\Extension\LaravelExtension: ~
+suites:
+    pepperrodeo_suite:
+        namespace: App
+        psr4_prefix: App
+        src_path: App
+        spec_path: Tests
